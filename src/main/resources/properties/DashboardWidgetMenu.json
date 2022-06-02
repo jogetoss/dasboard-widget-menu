@@ -1,0 +1,51 @@
+[
+   {
+      "title":"@@org.joget.marketplace.DashboardWidgetMenu.config@@",
+      "properties":[
+         {
+            "name":"id",
+            "label":"Id",
+            "type":"hidden"
+         },
+         {
+            "name":"customId",
+            "label":"@@userview.datalistmenu.customId@@",
+            "type":"textfield",
+            "regex_validation":"^[a-zA-Z0-9_]+$",
+            "validation_message":"@@userview.datalistmenu.invalidId@@"
+         },
+         {
+            "name":"label",
+            "label":"@@userview.datalistmenu.label@@",
+            "type":"textfield",
+            "required":"True"
+         },
+         {
+            "name" : "widgets",
+            "label" : "@@org.joget.marketplace.DashboardWidgetMenu.widgets@@",
+            "type" : "custom",
+            "script_url" : "[CONTEXT_PATH]/web/json/app[APP_PATH]/plugin/org.joget.marketplace.DashboardWidgetMenu/service",
+            "required":"True"
+         },
+         {
+            "name":"css",
+            "label":"@@org.joget.marketplace.DashboardWidgetMenu.css@@",
+            "type":"codeeditor",
+            "mode":"css",
+            "value":""
+         },
+         {
+            "name":"customHeader",
+            "label":"@@org.joget.marketplace.DashboardWidgetMenu.customHeader@@",
+            "type":"codeeditor",
+            "mode":"html"
+         },
+         {
+            "name":"customFooter",
+            "label":"@@org.joget.marketplace.DashboardWidgetMenu.customFooter@@",
+            "type":"codeeditor",
+            "mode":"css"
+         }
+      ]
+   }
+]
