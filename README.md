@@ -1,6 +1,8 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+Dashboard Widget Menu is a Userview Menu plugin that allow one to create multiple widgets to be used mainly for display of vital stats. In each widget, a title and content placeholder can be customized.
+
+<img width="1007" alt="dashboardWidget" src="https://user-images.githubusercontent.com/70784722/171793143-4b97cbd1-fb62-4c2f-a8fa-49a0cf94f58d.png">
 
 # Getting Help
 
